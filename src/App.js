@@ -12,6 +12,7 @@ function App() {
         <Navpar />
         <Routes>
           <Route path='/' exact element={<Feed />} />
+          <Route path='Youtube'  element={<Feed />} />
           <Route path='vidio/:id' element={<VidioDetails />} />
           <Route path='channel/:id' element={<ChannelDetails />} />
           <Route path='search/:searchTerm' element={<SearchFeed />} />
