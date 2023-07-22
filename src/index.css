@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
+
+}
+@media (min-width: 767px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+ul {
+  list-style: none;
+}
+body {
+
+
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
