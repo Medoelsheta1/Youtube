@@ -8,7 +8,7 @@ function Comments(props) {
                             {props.comments.map((comment) => {                                
                                 return (
                                     <li>
-                                        <img src={comment.snippet.topLevelComment.snippet.authorProfileImageUrl} alt='userImg' />
+                                        <img loading='lazy' src={comment.snippet.topLevelComment.snippet.authorProfileImageUrl} alt='userImg' />
                                         <div className={classes.commentText}>
                                             <span>{comment.snippet.topLevelComment.snippet.authorDisplayName}</span>
                                             <p>{comment.snippet.topLevelComment.snippet.textOriginal}</p>

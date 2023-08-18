@@ -9,7 +9,7 @@ const Card = ({imageurl , title , description , channelName , id , channel , cha
 
         <div className={classes.card}  >
             <Link to={channel ? `/channel/${id}`  :  `/vidio/${id}`}>
-                <img src={imageurl} alt={title} className={channel ? classes.channelImg : null} />
+                <img loading='lazy' src={imageurl} alt={title} className={channel ? classes.channelImg : null} />
             </Link>
             
             <div className={classes['card-text']} style={channel && {margin: '0' , textAlign: 'center' , marginTop: '20px'}}>

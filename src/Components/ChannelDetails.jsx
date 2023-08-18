@@ -25,7 +25,7 @@ function ChannelDetails() {
         <div className={classes.channel}>
             <div className={classes.gradient} />
             { ChannelDetails && <div className={classes.channelDetails}>
-                <img src={ChannelDetails.snippet.thumbnails.high.url} alt='there is an img' />  
+                <img loading='lazy' src={ChannelDetails.snippet.thumbnails.high.url} alt='there is an img' />  
                 <h3>{ChannelDetails.snippet.localized.title} <VerifiedIcon /></h3>
                 <p>{ChannelDetails.statistics.subscriberCount} Subscribers </p>
             </div> }
