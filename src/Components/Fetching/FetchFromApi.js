@@ -3,7 +3,7 @@ import axios from "axios"
     const options = {
     params: {maxResults: '50'},
     headers: {
-        'X-RapidAPI-Key': 'd467083254msh71ffa269265a801p13861ajsn77d70f2b5249',
+        'X-RapidAPI-Key': 'f181185155msh30e51881aa5054cp1c1fe5jsn69b4d28c3b06',
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
     };
